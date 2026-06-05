@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Base Mood Meter
 
-## Getting Started
+Base Mood Meter is a mobile-first Base Mini App for picking an onchain mood.
+Users connect a wallet, choose Happy, Focused, Bullish, or Chill, and call
+`setMood(uint8)` on Base. The app has no token, no points, no rewards, no
+invites, and no fees beyond Base gas.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js App Router
+- TypeScript
+- Wagmi native config
+- Viem
+- Tailwind CSS
+
+## Configuration
+
+Before the final production deployment:
+
+1. Replace the hardcoded tag in `src/app/layout.tsx`:
+
+```tsx
+<meta name="base:app_id" content="6a229f81ab28df7fd2fc1627" />
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Update `src/lib/config.ts`:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```ts
+export const CONTRACT_ADDRESS = "0x..." as Address;
+export const BUILDER_CODE = "bc_...";
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`BUILDER_CODE` is converted into an ERC-8021 data suffix with `ox/erc8021`.
+The Wagmi config includes `dataSuffix`, and the `writeContract` call also
+passes `dataSuffix` explicitly.
 
-## Learn More
+## Local Commands
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+npm run lint
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contract
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The Solidity source is in `contracts/BaseMoodMeter.sol`.
 
-## Deploy on Vercel
+After deploying it to Base, put the deployed address in `src/lib/config.ts`,
+redeploy the app, then verify:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Page source includes `<meta name="base:app_id" ...>`
+- Coinbase Wallet, MetaMask, OKX, and Base App injected wallet can connect
+- `Set Mood` sends a Base transaction
+- Reads update for latest mood, user updates, total updates, and mood counts
+- Basescan input data ends with the ERC-8021 encoded builder-code suffix
+- base.dev offchain and onchain attribution dashboards show data
