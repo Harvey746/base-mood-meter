@@ -30,9 +30,9 @@ export const CONTRACT_ADDRESS = "0x..." as Address;
 export const BUILDER_CODE = "bc_...";
 ```
 
-`BUILDER_CODE` is converted into an ERC-8021 data suffix with `ox/erc8021`.
-The Wagmi config includes `dataSuffix`, and the `writeContract` call also
-passes `dataSuffix` explicitly.
+`BUILDER_CODE` and the ERC-8021 encoded data suffix are set in
+`src/lib/config.ts`. The Wagmi config includes `dataSuffix`, and the
+`writeContract` call also passes `dataSuffix` explicitly.
 
 ## Local Commands
 
