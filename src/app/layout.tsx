@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fredoka.variable} ${geistMono.variable}`}>
       <head>
-        <meta name="base:app_id" content="6a229f81ab28df7fd2fc1627" />
+        <meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
         <meta
           name="talentapp:project_verification"
           content="5ab532c87ee279325dd12be64dbb27d0228837f2c2ad328660bee47423d6e164b7c0153afdee980ad9490109717409ac2189211cac54b71b944cb3ef2e62be4a"

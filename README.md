@@ -20,7 +20,7 @@ Before the final production deployment:
 1. Replace the hardcoded tag in `src/app/layout.tsx`:
 
 ```tsx
-<meta name="base:app_id" content="6a229f81ab28df7fd2fc1627" />
+<meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
 ```
 
 2. Update `src/lib/config.ts`:
