@@ -79,3 +79,12 @@ export const BUILDER_CODE = "bc_...";
 The Wagmi config includes `dataSuffix`.
 
 The `writeContract` call also passes `dataSuffix` explicitly.
+
+## Local Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Harvey746/base-mood-meter.git
+cd base-mood-meter
+```
