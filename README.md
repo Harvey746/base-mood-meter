@@ -159,3 +159,11 @@ Before considering the deployment complete, verify the following:
 - Base App injected wallet can connect
 - `Set Mood` sends a Base transaction
 - Latest mood reads update correctly
+- User update reads update correctly
+- Total update reads update correctly
+- Mood count reads update correctly
+- Basescan transaction input data ends with the ERC-8021 encoded builder-code suffix
+- base.dev offchain attribution dashboard shows data
+- base.dev onchain attribution dashboard shows data
+
+## Notes
