@@ -16,3 +16,11 @@ The app calls `setMood(uint8)` on Base and displays mood-related reads such as t
 Repository: https://github.com/Harvey746/base-mood-meter.git
 
 ## Overview
+
+BaseMoodMeter is designed to be simple, focused, and easy to verify.
+
+It does not include rewards, invites, points, or extra app fees.
+
+Users only pay the required Base network gas for transactions.
+
+The project includes both the frontend Mini App and the Solidity contract source.
