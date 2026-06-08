@@ -149,3 +149,13 @@ After deploying the contract to Base, copy the deployed contract address into `s
 Then redeploy the app so the frontend points to the correct contract.
 
 ## Deployment Checklist
+
+Before considering the deployment complete, verify the following:
+
+- The page source includes `<meta name="base:app_id" ...>`
+- Coinbase Wallet can connect
+- MetaMask can connect
+- OKX can connect
+- Base App injected wallet can connect
+- `Set Mood` sends a Base transaction
+- Latest mood reads update correctly
