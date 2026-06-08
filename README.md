@@ -123,3 +123,12 @@ Choose one of the available moods:
 
 - Happy
 - Focused
+- Bullish
+- Chill
+
+Submit the mood selection.
+
+The app sends a Base transaction that calls:
+
+```ts
+setMood(uint8)
