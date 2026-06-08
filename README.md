@@ -43,3 +43,12 @@ The project includes both the frontend Mini App and the Solidity contract source
 - Next.js App Router
 - TypeScript
 - Wagmi native config
+- Viem
+- Tailwind CSS
+- Solidity
+
+## Project Structure
+
+The main application code lives in the `src` directory.
+
+Important files include:
