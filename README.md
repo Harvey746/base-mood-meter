@@ -96,3 +96,12 @@ npm install
 ```
 
 Start the local development server:
+
+```bash
+npm run dev
+```
+
+Run lint checks:
+
+```bash
+npm run lint
