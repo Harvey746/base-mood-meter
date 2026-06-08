@@ -60,3 +60,13 @@ Important files include:
 ## Configuration
 
 Before the final production deployment, update the Base Mini App metadata.
+
+In `src/app/layout.tsx`, replace the hardcoded app tag:
+
+```tsx
+<meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
+```
+
+Then update the contract and builder configuration in `src/lib/config.ts`:
+
+```ts
