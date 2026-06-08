@@ -34,3 +34,12 @@ The project includes both the frontend Mini App and the Solidity contract source
 - Onchain mood updates through `setMood(uint8)`
 - Contract reads for mood activity
 - ERC-8021 builder attribution data suffix configuration
+- TypeScript-based frontend
+- Tailwind CSS styling
+- Solidity contract source included
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi native config
