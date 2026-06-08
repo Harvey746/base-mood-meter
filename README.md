@@ -132,3 +132,12 @@ The app sends a Base transaction that calls:
 
 ```ts
 setMood(uint8)
+```
+
+After the transaction is confirmed, the app reads the latest contract state and updates the displayed mood data.
+
+## Contract
+
+The Solidity source is located at:
+
+```text
