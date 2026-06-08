@@ -167,3 +167,13 @@ Before considering the deployment complete, verify the following:
 - base.dev onchain attribution dashboard shows data
 
 ## Notes
+
+Keep `CONTRACT_ADDRESS` current after each contract deployment.
+
+Keep the Base Mini App metadata current before publishing.
+
+Confirm wallet connection behavior in the target environment before release.
+
+Confirm that the transaction data suffix is present on Basescan after sending a mood update.
+
+Use `npm run lint` and `npm run build` before deployment to catch common issues.
