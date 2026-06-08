@@ -88,3 +88,11 @@ Clone the repository:
 git clone https://github.com/Harvey746/base-mood-meter.git
 cd base-mood-meter
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the local development server:
