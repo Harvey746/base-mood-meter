@@ -114,3 +114,12 @@ npm run build
 ```
 
 ## Usage
+
+Open the app in a browser or supported Base Mini App environment.
+
+Connect a wallet.
+
+Choose one of the available moods:
+
+- Happy
+- Focused
