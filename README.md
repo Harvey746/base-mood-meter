@@ -141,3 +141,11 @@ After the transaction is confirmed, the app reads the latest contract state and 
 The Solidity source is located at:
 
 ```text
+contracts/BaseMoodMeter.sol
+```
+
+After deploying the contract to Base, copy the deployed contract address into `src/lib/config.ts`.
+
+Then redeploy the app so the frontend points to the correct contract.
+
+## Deployment Checklist
