@@ -24,3 +24,13 @@ It does not include rewards, invites, points, or extra app fees.
 Users only pay the required Base network gas for transactions.
 
 The project includes both the frontend Mini App and the Solidity contract source.
+
+## Features
+
+- Mobile-first interface
+- Base Mini App metadata support
+- Wallet connection through injected wallets
+- Four selectable mood options
+- Onchain mood updates through `setMood(uint8)`
+- Contract reads for mood activity
+- ERC-8021 builder attribution data suffix configuration
