@@ -52,3 +52,11 @@ The project includes both the frontend Mini App and the Solidity contract source
 The main application code lives in the `src` directory.
 
 Important files include:
+
+- `src/app/layout.tsx` for app layout and metadata
+- `src/lib/config.ts` for contract and attribution configuration
+- `contracts/BaseMoodMeter.sol` for the Solidity contract source
+
+## Configuration
+
+Before the final production deployment, update the Base Mini App metadata.
