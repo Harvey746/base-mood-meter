@@ -70,3 +70,12 @@ In `src/app/layout.tsx`, replace the hardcoded app tag:
 Then update the contract and builder configuration in `src/lib/config.ts`:
 
 ```ts
+export const CONTRACT_ADDRESS = "0x..." as Address;
+export const BUILDER_CODE = "bc_...";
+```
+
+`BUILDER_CODE` and the ERC-8021 encoded data suffix are configured in `src/lib/config.ts`.
+
+The Wagmi config includes `dataSuffix`.
+
+The `writeContract` call also passes `dataSuffix` explicitly.
