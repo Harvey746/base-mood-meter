@@ -29,3 +29,12 @@ It is designed as a Base Mini App and includes the required metadata and configu
 
 - Mobile-first interface
 - Base Mini App metadata support
+- Wallet connection through injected wallet providers
+- Onchain mood selection using `setMood(uint8)`
+- Read support for latest mood data
+- Read support for user update counts
+- Read support for total update counts
+- Read support for mood counts
+- ERC-8021 encoded builder-code suffix configuration
+- TypeScript-based application code
+- Tailwind CSS styling
