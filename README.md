@@ -182,3 +182,13 @@ After deploying the contract and app, verify the following:
 - The page source includes the `<meta name="base:app_id" ...>` tag.
 - Coinbase Wallet can connect.
 - MetaMask can connect.
+- OKX Wallet can connect.
+- The Base App injected wallet can connect.
+- `Set Mood` sends a transaction on Base.
+- The latest mood value updates after a successful transaction.
+- User update counts are displayed correctly.
+- Total update counts are displayed correctly.
+- Mood counts are displayed correctly.
+- Basescan input data ends with the ERC-8021 encoded builder-code suffix.
+- base.dev offchain attribution dashboard shows data.
+- base.dev onchain attribution dashboard shows data.
