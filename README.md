@@ -160,3 +160,14 @@ The Solidity source is available at:
 ```text
 contracts/BaseMoodMeter.sol
 ```
+
+After deploying the contract to Base, add the deployed address to `src/lib/config.ts`.
+
+Then redeploy the app so the frontend points to the correct contract.
+
+## Usage
+
+1. Open the app.
+2. Connect a wallet.
+3. Choose one of the available moods.
+4. Select `Set Mood`.
