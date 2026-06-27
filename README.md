@@ -59,3 +59,13 @@ contracts/BaseMoodMeter.sol
 ```
 
 Configuration values for the deployed contract and builder code are located in:
+
+```text
+src/lib/config.ts
+```
+
+The Base Mini App metadata tag is located in:
+
+```text
+src/app/layout.tsx
+```
