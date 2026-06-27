@@ -119,3 +119,15 @@ npm run dev
 ```
 
 Run linting:
+
+```bash
+npm run lint
+```
+
+Build the application:
+
+```bash
+npm run build
+```
+
+## Configuration
