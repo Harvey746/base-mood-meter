@@ -89,3 +89,14 @@ cd base-mood-meter
 ```
 
 Install dependencies:
+
+```bash
+npm install
+```
+
+## Local Development
+
+Start the development server:
+
+```bash
+npm run dev
