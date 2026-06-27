@@ -192,3 +192,13 @@ After deploying the contract and app, verify the following:
 - Basescan input data ends with the ERC-8021 encoded builder-code suffix.
 - base.dev offchain attribution dashboard shows data.
 - base.dev onchain attribution dashboard shows data.
+
+## Notes
+
+Keep the contract address in `src/lib/config.ts` synchronized with the deployed Base contract.
+
+If the contract is redeployed, update the frontend configuration and deploy the app again.
+
+Make sure the Base Mini App ID is correct before production release.
+
+Run linting and a production build before publishing changes.
