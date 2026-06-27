@@ -171,3 +171,14 @@ Then redeploy the app so the frontend points to the correct contract.
 2. Connect a wallet.
 3. Choose one of the available moods.
 4. Select `Set Mood`.
+5. Confirm the Base transaction in the wallet.
+6. Wait for the transaction to complete.
+7. Review the updated mood data in the app.
+
+## Deployment Checklist
+
+After deploying the contract and app, verify the following:
+
+- The page source includes the `<meta name="base:app_id" ...>` tag.
+- Coinbase Wallet can connect.
+- MetaMask can connect.
