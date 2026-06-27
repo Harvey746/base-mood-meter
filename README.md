@@ -80,3 +80,12 @@ Before running the project locally, make sure you have:
 - Access to the Base network
 
 ## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Harvey746/base-mood-meter.git
+cd base-mood-meter
+```
+
+Install dependencies:
