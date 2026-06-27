@@ -38,3 +38,14 @@ It is designed as a Base Mini App and includes the required metadata and configu
 - ERC-8021 encoded builder-code suffix configuration
 - TypeScript-based application code
 - Tailwind CSS styling
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi native config
+- Viem
+- Tailwind CSS
+- Solidity
+
+## Project Structure
