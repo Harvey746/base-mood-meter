@@ -141,3 +141,12 @@ In `src/app/layout.tsx`, replace the hardcoded Base app ID value:
 ```
 
 In `src/lib/config.ts`, update the deployed contract address and builder code:
+
+```ts
+export const CONTRACT_ADDRESS = "0x..." as Address;
+export const BUILDER_CODE = "bc_...";
+```
+
+The `BUILDER_CODE` value and the ERC-8021 encoded data suffix are configured in `src/lib/config.ts`.
+
+The Wagmi configuration includes `dataSuffix`.
