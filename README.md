@@ -49,3 +49,13 @@ It is designed as a Base Mini App and includes the required metadata and configu
 - Solidity
 
 ## Project Structure
+
+The main application code lives under `src/`.
+
+The Solidity contract source is located at:
+
+```text
+contracts/BaseMoodMeter.sol
+```
+
+Configuration values for the deployed contract and builder code are located in:
