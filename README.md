@@ -131,3 +131,13 @@ npm run build
 ```
 
 ## Configuration
+
+Before the final production deployment, update the Base Mini App metadata and contract configuration.
+
+In `src/app/layout.tsx`, replace the hardcoded Base app ID value:
+
+```tsx
+<meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
+```
+
+In `src/lib/config.ts`, update the deployed contract address and builder code:
