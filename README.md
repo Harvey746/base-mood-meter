@@ -100,3 +100,13 @@ Start the development server:
 
 ```bash
 npm run dev
+```
+
+Then open the local development URL shown in your terminal.
+
+## Useful Commands
+
+Install dependencies:
+
+```bash
+npm install
