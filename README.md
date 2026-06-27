@@ -8,3 +8,13 @@ The available moods are:
 
 - Happy
 - Focused
+- Bullish
+- Chill
+
+The app is intentionally simple. It has no points, no rewards, no invites, and no fees beyond Base network gas.
+
+## Repository
+
+GitHub: https://github.com/Harvey746/base-mood-meter.git
+
+## Overview
