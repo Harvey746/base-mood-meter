@@ -166,3 +166,13 @@ export const BUILDER_CODE = "bc_...";
 The `BUILDER_CODE` value and the ERC-8021 encoded data suffix are configured in `src/lib/config.ts`.
 
 The Wagmi configuration includes `dataSuffix`.
+
+The `writeContract` call also passes `dataSuffix` explicitly.
+
+## Contract
+
+The Solidity source is available at:
+
+```text
+contracts/BaseMoodMeter.sol
+```
