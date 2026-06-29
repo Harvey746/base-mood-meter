@@ -71,3 +71,14 @@ src/lib/config.ts
 ```
 
 The Base Mini App metadata tag is located in:
+
+```text
+src/app/layout.tsx
+```
+
+## Prerequisites
+
+Before running the project locally, make sure you have:
+
+- Node.js installed
+- npm installed
