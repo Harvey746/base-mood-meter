@@ -61,3 +61,13 @@ src/
 The Solidity contract source is located in:
 
 ```text
+contracts/BaseMoodMeter.sol
+```
+
+Contract and builder-code configuration values are located in:
+
+```text
+src/lib/config.ts
+```
+
+The Base Mini App metadata tag is located in:
