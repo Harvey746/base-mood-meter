@@ -82,3 +82,13 @@ Before running the project locally, make sure you have:
 
 - Node.js installed
 - npm installed
+- A wallet available for testing
+- Access to the Base network
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Harvey746/base-mood-meter.git
+cd base-mood-meter
