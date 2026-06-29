@@ -176,3 +176,14 @@ The Solidity source is available at:
 ```text
 contracts/BaseMoodMeter.sol
 ```
+
+After deploying the contract to Base, add the deployed contract address to `src/lib/config.ts`.
+
+Then redeploy the app so the frontend points to the correct contract.
+
+## Deployment Checklist
+
+After deploying the contract and the app, verify the following:
+
+- The page source includes the `<meta name="base:app_id" ...>` tag.
+- Coinbase Wallet can connect.
