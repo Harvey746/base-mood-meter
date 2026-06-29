@@ -145,3 +145,13 @@ Build the application:
 ```bash
 npm run build
 ```
+
+## Configuration
+
+Before the final production deployment, update the Base Mini App metadata and contract configuration.
+
+In `src/app/layout.tsx`, replace the hardcoded Base app ID value:
+
+```tsx
+<meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
+```
