@@ -103,3 +103,14 @@ npm install
 ## Local Development
 
 Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in your terminal.
+
+## Usage
+
+1. Open the app.
+2. Connect a wallet.
