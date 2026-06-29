@@ -30,3 +30,13 @@ The supported moods are:
 ## Features
 
 - Mobile-first interface
+- Base Mini App metadata support
+- Wallet connection through injected wallet providers
+- Onchain mood selection using `setMood(uint8)`
+- Display of the latest mood data
+- Display of user update counts
+- Display of total update counts
+- Display of mood counts
+- ERC-8021 encoded builder-code suffix configuration
+- TypeScript application code
+- Tailwind CSS styling
