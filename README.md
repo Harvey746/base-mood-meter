@@ -19,3 +19,14 @@ The app reads and displays mood-related contract data, including the latest mood
 It is designed as a Base Mini App and includes metadata and configuration hooks needed for deployment.
 
 ## Available Moods
+
+The supported moods are:
+
+- Happy
+- Focused
+- Bullish
+- Chill
+
+## Features
+
+- Mobile-first interface
