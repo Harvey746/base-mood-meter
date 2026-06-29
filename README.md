@@ -40,3 +40,12 @@ The supported moods are:
 - ERC-8021 encoded builder-code suffix configuration
 - TypeScript application code
 - Tailwind CSS styling
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi native config
+- Viem
+- Tailwind CSS
+- Solidity
