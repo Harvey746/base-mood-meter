@@ -49,3 +49,15 @@ The supported moods are:
 - Viem
 - Tailwind CSS
 - Solidity
+
+## Project Structure
+
+The main application code is located in:
+
+```text
+src/
+```
+
+The Solidity contract source is located in:
+
+```text
